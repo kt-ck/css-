@@ -16,7 +16,7 @@
 4. text-transform: uppercase, lowercase, capitalize
 5. text-indent: [ 50px ]                               //缩进
 6. letter-spacing: [ 3 px]
-7. line-height:[ 200% ]
+7. line-height:[ 200% ,1px]
 8. word-spacing:[ 20px ] //只针对因为单词
 9. white-spacing: normal(忽略空格), pre(保留空格), nowrap(不换行直到遇到< br >)
 10. text-shadow:[5px 10px 5px red]  //水平移动、垂直移动 模糊 颜色
@@ -53,6 +53,7 @@ list-style:
 1. vertical-align: text-top, text-bottom              
 
 # 盒子模型
+简写时4个为顺时针，3个为上，左右，下，2个为上下， 左右
 ## border
 ### 简写：
 border: width solid red
@@ -60,4 +61,40 @@ border: width solid red
 1. border-style: dotted,dash,solid,double,groove
 2. border-width:
 3. border-color:
-4. border-top-style,border-right-style,border-bottom-style,border-left-style:  //设置单边
+4. border-[right, top, left, bootom]-[ style,width,color ]  //设置单边属性
+## outline
+### 简写
+outline: width style color
+
+### 属性
+1. outline-style:
+2. outline-width:
+3. outline-color:
+
+## margin
+### 简写
+margin: [1px 1cm 25%]
+
+### 属性
+1. margin-[bottom, top, left, right]
+
+## padding
+### 简写
+padding: 1px 1cm 10%
+### 属性
+padding-[top. bottom, left, right]
+
+# 尺寸
+1. height: [1px, 100%]
+2. width: 
+3. [max, min]-[height, width]:1px, 100%
+
+# 显示
+1. display: none(不显示，但是占用空间)， inline(元素为内联)，block(块)
+2. visibility: hidden, collapse
+3. position: static, fixed, relative(相对位置)，absolute, sticky(必须指定left，right，top，bottom必须指定一个)
+4. left, right, top, bottom: 1px
+5. z-index: 1（可以有负数） // 用于显示堆叠顺序
+6. clip: rect(top-top, right-left, bottom-top, left-left,仅限position为absolute的元素)
+7. overflow: scroll, auto, visible, hidden   (超出部分的显示方法)
+8. cursor: crosshair(十字架),move(平移时鼠标的状态)，help（鼠标旁会多一个问号),pointer(小手指),n-resize(只向南北), nw-resize(只想西北-东西),ne-resize(只向东北-西南)，progress(鼠标旁多一个转的圆圈),text(I)，wait(一个旋转的圆圈)
