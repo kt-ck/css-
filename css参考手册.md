@@ -96,5 +96,12 @@ padding-[top. bottom, left, right]
 4. left, right, top, bottom: 1px
 5. z-index: 1（可以有负数） // 用于显示堆叠顺序
 6. clip: rect(top-top, right-left, bottom-top, left-left,仅限position为absolute的元素)
-7. overflow: scroll, auto, visible, hidden   (超出部分的显示方法)
+7. overflow[overflow-x, overflow-y]: scroll, auto, visible, hidden   (超出部分的显示方法)
 8. cursor: crosshair(十字架),move(平移时鼠标的状态)，help（鼠标旁会多一个问号),pointer(小手指),n-resize(只向南北), nw-resize(只想西北-东西),ne-resize(只向东北-西南)，progress(鼠标旁多一个转的圆圈),text(I)，wait(一个旋转的圆圈)
+9. float: right,left
+10. box-sizing: border-box,content-box;(border-box可以让两个元素并排显示)
+11. 居中: margin设置成auto同时设置width；
+
+# 选择器
+ 空格 后代选择器（所有的后代）> 子元素选择器（子元素） + 相邻兄弟选择器 ~ 后续兄弟选择器
+
