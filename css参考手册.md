@@ -105,3 +105,7 @@ padding-[top. bottom, left, right]
 # 选择器
  空格 后代选择器（所有的后代）> 子元素选择器（子元素） + 相邻兄弟选择器 ~ 后续兄弟选择器
 
+# 伪类
+1. first-child: 父元素的第一个元素
+[!avatar](/伪类.png)
+[!avatar](/伪元素.png)
