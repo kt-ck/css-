@@ -101,6 +101,7 @@ padding-[top. bottom, left, right]
 9. float: right,left
 10. box-sizing: border-box,content-box;(border-box可以让两个元素并排显示)
 11. 居中: margin设置成auto同时设置width；
+12. box-shadow 0px(向右平移) 8px(向下平移) 16px(模糊距离) 0px(阴影大小) #123(颜色)
 
 # 选择器
  空格 后代选择器（所有的后代）> 子元素选择器（子元素） + 相邻兄弟选择器 ~ 后续兄弟选择器
