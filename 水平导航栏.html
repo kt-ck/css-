@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>水平导航栏</title>
+        <style>
+            ul{
+                list-style-type: none;
+                background-color: rgb(136, 130, 130);
+                margin:0px;
+                padding:0px;
+                overflow:hidden;
+                
+            }
+            li{
+                float:left;
+            }
+            .right{
+                float:right;
+            }
+            li a{
+                display:block;
+                width:100px;
+                padding:20px 0px;
+                margin:0px;
+                text-align: center;
+                background-color: rgb(136, 130, 130);
+                text-decoration: none;
+                color:aliceblue;
+            }
+            
+            a:not(.now):hover{
+                background-color: #bbb;
+                color:#555;
+            }
+
+            .now{
+                background-color:rgb(20, 177, 143);
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="position:fixed">
+        <ul>
+            <li><a href="基础元素.html" target="_blank" class="">首页</a></li>
+            <li><a href="" target="_blank" class="now">数据</a></li>
+            <li><a href="" target="_blank">商城</a></li>
+            <li><a href="" target="_blank">用户</a></li>
+            <li><a href="" target="_blank">联系我们</a></li>
+            <li class="right"><a href="" target="_blank">关于</a></li>
+        </ul>
+        </div>
+        <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+            <h2>Fixed Full-height Side Nav</h2>
+            <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+            <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+            <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+          </div>
+    </body>
+</html>
