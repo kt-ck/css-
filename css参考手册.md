@@ -108,5 +108,5 @@ padding-[top. bottom, left, right]
 
 # 伪类
 1. first-child: 父元素的第一个元素
-[!avatar](./伪类.png)
-[!avatar](./伪元素.png)
+[!伪类](./伪类.png)
+[!伪元素](./伪元素.png)
